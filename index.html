@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post it</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="modal">
+        <div class="inner-modal">
+          <textarea placeholder="Anotação..." id="user-input" maxlength="160"></textarea>
+          <i class="far fa-times-circle" id="hide"></i>
+        </div>
+      </div>
+      <main>
+        <header>
+          <div class="container">
+            <div id="header">
+              <h1><i class="fas fa-sticky-note"></i> Bloco de anotações</h1>
+              <button id="add-note">Adicionar bloquinho</button>
+            </div>
+          </div>
+        </header>
+        <section>
+          <div class="container">
+            <div id="all-notes"></div>
+          </div>
+        </section>
+      </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
